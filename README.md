@@ -124,8 +124,11 @@ The repository includes a lightweight, dependency-free JavaScript development-pr
 
 ## Documentation
 
-The repository contains an [ER diagram](docs/ER-Diagram.mmd), an [architecture diagram](docs/Architecture-Diagram.mmd), an [interview guide](docs/INTERVIEW_GUIDE.md), and a [test plan](docs/TEST_PLAN.md).
+The repository contains an [ER diagram](docs/ER-Diagram.mmd), an [architecture diagram](docs/Architecture-Diagram.mmd)
 
-## Prototype Archive
+## Author 
+Eshrath Aziz
+email:eshrathaziz@gmail.com
 
-`archive/orderflow-operations-ledger-prototype.zip` preserves the former TypeScript/Vite interface prototype for historical reference only. It is not loaded, built, or used by the ASP.NET MVC 5 solution. This separation keeps the repository’s primary source implementation accurately represented by C#, Razor, Entity Framework 6, and SQL Server assets.
+
+
