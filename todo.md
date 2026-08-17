@@ -1,0 +1,49 @@
+# OrderFlow Database Persistence Checklist
+
+- [x] Upgrade the project to the managed full-stack database configuration.
+- [x] Define normalized persistent tables for customers, categories, products, inventory, inventory transactions, orders, order items, customer requests, and request history.
+- [x] Generate and apply the database migration.
+- [x] Add authenticated, role-aware data procedures and database helpers.
+- [x] Replace dashboard demonstration state with persistent reads and mutations.
+- [x] Validate schema creation, persistent workflow logic, type safety, and test coverage; authenticated end-to-end record creation is ready for user sign-in.
+- [x] Document database setup and update the project checkpoint.
+- [x] Add explicit role enforcement for persistent inventory and workflow procedures.
+- [x] Verify the managed database documentation and prepare the final persistence checkpoint.
+- [x] Re-run type and workflow tests after role enforcement, then verify the final documentation before checkpointing.
+- [x] Verify final managed-database documentation and add a focused administrator-access test before checkpointing.
+- [x] Remove infrastructure and persistence terminology from all visible OrderFlow interface copy.
+- [x] Replace technical status panels and headings with business-oriented operations language.
+- [x] Validate the revised interface and preserve existing user workflows.
+- [x] Review and implement the requirements supplied in pasted_content_2.txt.
+- [x] Validate the attached-content enhancements and prepare the project checkpoint.
+- [x] Audit the existing C# MVC solution, Entity Framework context, SQL Server schema, Razor views, and build tooling.
+- [x] Make the ASP.NET MVC solution the documented primary OrderFlow implementation and move the TypeScript UI into a non-primary prototype area.
+- [x] Complete the SQL Server entities, services, controllers, ViewModels, Entity Framework migration configuration, and Razor CRUD workflows required by the supplied checklist.
+- [x] Build the .NET project and verify C# source, EF configuration, SQL Server assets, controllers, models, and Razor views.
+- [x] Rewrite the README to accurately describe only the final implementation and validation status.
+- [x] Add and verify a persisted MVC order edit workflow for editable order details and line items.
+- [x] Document the verified C# build result and Windows IIS/IIS Express runtime requirement without claiming a successful Linux-hosted runtime test.
+- [x] Save the final MVC-primary repository checkpoint after the verified build and reservation checks.
+- [x] Confirm the README describes only ASP.NET MVC 5/.NET Framework 4.8 and Windows IIS/IIS Express runtime requirements.
+- [x] Complete final C# build and repository-structure verification without further Linux/Mono hosting attempts.
+- [x] Save the final corrected MVC repository checkpoint and deliver the build summary.
+- [x] Expand the MVC order-edit view with add and remove controls for order lines.
+- [x] Add focused verification for order edit persistence and inventory reservation reconciliation.
+- [x] Do not retain the unsupported in-memory EF6 persistence verification; preserve the successful MVC build and reservation verifier as directed.
+- [x] Remove the unsupported supplemental in-memory EF6 persistence verification dependency and return to the lightweight C# reservation verifier.
+- [x] Run the final MVC build, reservation verification, MVC asset inventory, active TypeScript source check, and README stack check.
+- [x] Verify removal of all Effort/NMemory in-memory test code and package wiring, then re-run the lightweight C# reservation verifier.
+- [x] Inspect the stopped development-server configuration and deployment build failure.
+- [x] Restore a compatible development-server entry point while keeping ASP.NET MVC 5 as the primary source implementation.
+- [x] Restart and verify the development service, then document the supported runtime boundary.
+- [x] Save the development-server recovery checkpoint.
+- [x] Add a compatible JavaScript syntax-check script for the lightweight development preview.
+- [x] Add a build step that creates the required dist/public deployment artifact from the lightweight preview.
+- [x] Validate the generated deployment artifact and retained development-server response.
+- [x] Save the deployment build fix checkpoint and confirm production build readiness.
+- [x] Confirm the managed deployment succeeds after the dist/public artifact fix, then save the verified deployment checkpoint.
+- [x] Capture post-deployment production evidence after the artifact fix before reporting success.
+- [x] Extend the preview build to emit dist/index.js as the managed production startup entry point.
+- [x] Validate that the generated production server starts on the injected port and serves dist/public assets.
+- [x] Save and confirm the deployment fix after the managed startup probe succeeds.
+- [x] Save the post-confirmation production checkpoint and reference the verified deployment result.
